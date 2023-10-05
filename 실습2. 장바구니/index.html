@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <title>장바구니</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .cart-container {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .product {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+
+    .product-name {
+      flex-grow: 1;
+    }
+
+    .product-price {
+      margin-left: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>장바구니</h1>
+  <div class="cart-container">
+    <div class="product">
+      <span class="product-name">상품 1</span>
+      <span class="product-price">$10.00</span>
+    </div>
+    <div class="product">
+      <span class="product-name">상품 2</span>
+      <span class="product-price">$15.00</span>
+    </div>
+    <div class="product">
+      <span class="product-name">상품 3</span>
+      <span class="product-price">$20.00</span>
+    </div>
+  </div>
+</body>
+</html>
+
+<!-- html, js, css 파일 생성 -->
+<!-- 장바구니 담기 버튼에 이벤트 추가 -->
+<!-- 상품정보는 html에 작성하고 장바구니 목록태그에 추가 -->
+<!-- 장바구니 담기 버튼 클릭 시 해단 상품의 정보를 가져와서 추가 -->
+<!-- 장바구니 목록 추가시 총 주문금액이 더해지는 방식 -->
+<!-- html, css구성은 마음대로 -->
